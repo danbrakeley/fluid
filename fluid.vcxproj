@@ -141,6 +141,12 @@
     <ClCompile Include="src\demo.c" />
     <ClCompile Include="src\solver.c" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\solver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".clang-format" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
